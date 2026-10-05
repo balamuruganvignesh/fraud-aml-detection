@@ -1,0 +1,4 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["slow: end-to-end pipeline run (~seconds)"]
+filterwarnings = ["ignore::DeprecationWarning:google.genai.*"]
